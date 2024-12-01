@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         SONARQUBE = 'MySonarQubeServer'
-        SONAR_PROJECT_KEY = '323361'
+        SONAR_PROJECT_KEY = 'Jenkins-323361'
         SONAR_PROJECT_NAME = 'Jenkins'
         SONAR_PROJECT_VERSION = '1.0'
         SONAR_SOURCES = 'src/main/java'
