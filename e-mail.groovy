@@ -5,7 +5,7 @@ pipeline {
         SONARQUBE = 'MySonarQubeServer'
         GIT_REPO = 'https://github.com/Jayeon2/jenkins-security-analysis.git'
         RECIPIENTS = 'Evjenkins323361@gmail.com'
-        SONAR_PROJECT_KEY = '323361'
+        SONAR_PROJECT_KEY = 'Jenkins-323361'
         SONAR_PROJECT_NAME = 'Jenkins'
     }
 
