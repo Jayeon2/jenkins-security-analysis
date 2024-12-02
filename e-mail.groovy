@@ -34,7 +34,7 @@ post {
                         <p>${vulnerabilities.size()} vulnerabilities found in the project.</p>
           <p><a href="http://localhost:9000/dashboard?id=Jenkins-323361">View project details in SonarQube</a></p>
                     """,
-                    to: 'twstedgod@gmail.com',   
+                    to: 'qawdrs6416@gmail.com',   
                     mimeType: 'text/html'
                 )
             } else {
