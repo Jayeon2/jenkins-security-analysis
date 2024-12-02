@@ -11,7 +11,7 @@ stage('SonarQube Analysis') {
 }
 
 post {
-    failure {
+    always {
         script {
        def sonarServerUrl = "http://localhost:9000"
             def projectKey = "Jenkins-323361"
